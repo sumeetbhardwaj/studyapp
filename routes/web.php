@@ -14,3 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'FrontController@index');
+Route::get('login', 'FrontController@login');
+Route::get('register', 'FrontController@registration');
+Route::get('gkquestion', 'FrontController@gkquestion');
+Route::get('statesgk', 'FrontController@statesgk');

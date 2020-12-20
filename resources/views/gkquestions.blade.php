@@ -1,8 +1,8 @@
-<?php include 'templates/header.php'; ?>
-    <div id="main-content">
-        <div class="container">
-            <div class="row">
-			<?php include 'templates/sidebar.php'; ?>
+@extends('layout')
+
+@section('content')
+
+	@include('templates.sidebar');
                 <div class="col-md-8">
                     <!-- post-container -->
                     <div class="post-container">
@@ -416,8 +416,4 @@
                         </ul>
                     </div><!-- /post-container -->
                 </div>
-                
-            </div>
-        </div>
-    </div>
-<?php include 'templates/footer.php'; ?>
+              @stop

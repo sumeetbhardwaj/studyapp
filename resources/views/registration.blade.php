@@ -1,7 +1,6 @@
-<?php include 'templates/header.php'; ?>
-    <div id="main-content">
-        <div class="container">
-            <div class="row">
+@extends('layout')
+
+@section('content')
                 <div class="col-md-12">
                     <!-- post-container -->
                     <div class="post-container">
@@ -9,7 +8,7 @@
 								<div class="row">
 								<div class="col-md-6">
 									<div class="login-img">
-										<img src="<?php echo site_url(); ?>assets/images/govt-register.jpg" alt="" style="  height: 425px;" />
+										<img src="{{ asset('public/assets/images/govt-register.jpg')}}" alt="" style="  height: 425px;" />
 									</div>
 								</div>
                                 <div class="col-md-6">                          
@@ -45,7 +44,4 @@
                         </div>
                     </div><!-- /post-container -->
                 </div>
-            </div>
-        </div>
-    </div>
-<?php include 'templates/footer.php'; ?>
+@stop

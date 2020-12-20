@@ -30,7 +30,7 @@
             </div>
 			<div class="col-md-9" id="menu-header">
                  <ul class='menu'>
-                    <li><a href=' welcome '>Home</a></li>
+                    <li><a href="/studyapp">Home</a></li>
                     <li><a href='gkquestion'>Gk Questions <i class="fa fa-angle-down" arai-hidden="true"></i></a>
 						<div class="sub-menu">
 							<ul>
