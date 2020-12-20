@@ -1,19 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Eduction</title>
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="<?php echo site_url(); ?>assets/css/bootstrap.min.css" />
-    <!-- Font Awesome Icon -->
-    <link rel="stylesheet" href="<?php echo site_url(); ?>assets/css/font-awesome.css">
-    <!-- Custom stlylesheet -->
-    <link rel="stylesheet" href="<?php echo site_url(); ?>assets/css/style.css">
-</head>
-<body>
 <!-- Menu Bar -->
 <div id="menu-bar">
     <div class="container">
@@ -42,7 +26,7 @@
         <div class="row">
             <!-- LOGO -->
             <div class="col-md-3">
-                <a href="" id="logo"><img src="<?php echo site_url(); ?>assets/images/govt-exam.png"></a>
+                <a href="" id="logo"><img src="{{ asset('public/assets/images/govt-exam.png')}}"></a>
             </div>
 			<div class="col-md-9" id="menu-header">
                  <ul class='menu'>
@@ -93,4 +77,3 @@
     </div>
 </div>
 <!-- /HEADER -->
-
