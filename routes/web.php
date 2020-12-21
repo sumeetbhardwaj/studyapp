@@ -19,4 +19,5 @@ Route::get('register', 'FrontController@registration');
 Route::get('gkquestion', 'FrontController@gkquestion');
 Route::get('statesgk', 'FrontController@statesgk');
 
-Route::get('deshboard', 'AdminController@index');
+Route::get('admin', 'AdminController@admin');
+Route::get('deshboard', 'AdminController@deshboard');
