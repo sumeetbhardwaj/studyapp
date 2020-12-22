@@ -10247,3 +10247,16 @@ body {
 .sb-sidenav-light .sb-sidenav-footer {
   background-color: #e9ecef;
 }
+.active-btn {
+    width: 80px;
+    /* height: 30px; */
+    line-height: 20px !important;
+    background: green;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+.add-btn {
+    background: #007bff;
+    color: #fff;
+}

@@ -12,4 +12,10 @@ class AdminController extends Controller
     public function deshboard(){
 		return view('admin/deshboard');
 	}
+	public function table(){
+		return view('admin/tables');
+	}
+	public function subjects(){
+		return view('admin/subjects');
+	}
 }

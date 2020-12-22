@@ -21,3 +21,5 @@ Route::get('statesgk', 'FrontController@statesgk');
 
 Route::get('admin', 'AdminController@admin');
 Route::get('deshboard', 'AdminController@deshboard');
+Route::get('table', 'AdminController@table');
+Route::get('subjects', 'AdminController@subjects');
