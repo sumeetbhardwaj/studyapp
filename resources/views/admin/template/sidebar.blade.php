@@ -11,6 +11,34 @@
 					<div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
 					Subject's
 				</a>
+				<a class="nav-link" href="states">
+					<div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
+					State's
+				</a>
+				<a class="nav-link" href="currentgk">
+					<div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
+					Current Affair's
+				</a>
+				<a class="nav-link" href="jobs">
+					<div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
+					Job's
+				</a>
+				<a class="nav-link" href="onlinetests">
+					<div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
+					Online Test's
+				</a>
+				<a class="nav-link" href="testcat">
+					<div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
+					Online Test Categories
+				</a>
+				<a class="nav-link" href="post">
+					<div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
+					Post's
+				</a>
+				<a class="nav-link" href="user">
+					<div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
+					User's
+				</a>
 			</div>
 		</div>	
 	</nav>
